@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1dd31d, #726fb0, #008eb1);
+}
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    background: white;
+}
+
+#gameContainer{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 225px;
+    margin: auto;
+    background-color: black;
+}
+
+h1, h2{
+    color: white;
+}
+
+button{
+    border: none;
+    outline: none;
+    margin: 15px;
+    padding: 5px 10px;
+    font-weight: 600;
+    background: #ff5945;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
